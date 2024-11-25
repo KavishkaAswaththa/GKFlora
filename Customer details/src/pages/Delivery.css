@@ -1,0 +1,128 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #c9f409;
+    margin-top: 20px;
+    font-size: 36px;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-group ,label{
+    margin-bottom: 20px;
+    
+  }
+  
+  label {
+    font-size: 16px;
+    color: #a5522c;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 90%;
+    padding:15px;
+    border: 1px solid #d8daf9;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+    background-color: #e3e6e5;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #f1f6f3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  button {
+    padding: 20px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-warning {
+    background-color: #ffcc00;
+    color: white;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e6b800;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .mt-4 {
+    margin-top: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #dffcfc;
+  }
+  
+  th {
+    background-color: #3ec9db;
+    color: rgb(25, 23, 23);
+  }
+  
+  td {
+    background-color: #0d0d0d;
+  }
+  
+  tbody tr:hover {
+    background-color: #141212;
+  }
+  
+  thead {
+    font-size: 18px;
+    
+  }
+  
+  td button {
+    margin-right: 7px;
+  }
+  
+  
